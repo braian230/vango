@@ -1,0 +1,321 @@
+[
+  {
+    "precio": 1000,
+    "id": 3,
+    "title": "Aro acero dorado",
+    "img": "./img/catalogo/aro-05.png"
+  },
+  {
+    "precio": 1000,
+    "id": 4,
+    "title": "Aro acero dorado",
+    "img": "./img/catalogo/aro06.png"
+  },
+  {
+    "precio": 1000,
+    "id": 5,
+    "title": "Aro acero dorado",
+    "img": "./img/catalogo/aro07.png"
+  },
+  {
+    "precio":1000,
+    "id": 6,
+    "title": "Aro acero dorado cuff",
+    "img": "./img/catalogo/aro-cuff.png"
+  },
+  
+  {
+    "precio": 1000,
+    "id": 7,
+    "title": "Aro acero dorado cuff",
+    "img": "./img/catalogo/aro-cuff-02.png"
+  },
+  {
+      "precio": 1000,
+      "id": 8,
+      "title": "Aro acero dorado cuff",
+      "img": "./img/catalogo/Aro-cuff-corona.png"
+  },
+  {
+      "precio": 1000,
+      "id": 9,
+      "title": "Aro acero dorado cuff star",
+      "img": "./img/catalogo/Aro-cuff-star.png"
+  },
+  {
+      "precio": 1000,
+      "id": 10,
+      "title": "Aro acero dorado star",
+      "img": "./img/catalogo/aro-star.png"
+  },
+  {
+      "precio": 500,
+      "id": 11,
+      "title": "Aro acero dorado",
+      "img": "./img/catalogo/aro-tapadelata.png"
+  },
+  {
+      "precio": 1000,
+      "id": 12,
+      "title": "Aro acero dorado Dior",
+      "img": "./img/catalogo/Dior-ovaladas.png"
+  },  {
+    "precio": 1000,
+    "id": 13,
+    "title": "Aro acero dorado",
+    "img": "./img/catalogo/aro03.png"
+  },
+  {
+    "precio": 1500,
+    "id": 14,
+    "title": "Aro acero dorado",
+    "img": "./img/catalogo/aro04.png"
+  },
+  {
+    "precio": 700,
+    "id": 15,
+    "title": "Aro colgante acero dorado",
+    "img": "./img/catalogo/aros-dorados.png"
+  },
+  {
+    "precio": 400,
+    "id": 16,
+    "title": "Aro acero blanco",
+    "img": "./img/catalogo/aros-perla.png"
+  },
+  {
+    "precio": 500,
+    "id": 17,
+    "title": "Collar acero blanco",
+    "img": "./img/catalogo/collar-acero-blanco.png"
+  },
+  {
+    "precio": 500,
+    "id": 18,
+    "title": "Collar acero blanco",
+    "img": "./img/catalogo/collar-acero-blanco1.png"
+  },
+  
+  {
+    "precio": 500,
+    "id": 19,
+    "title": "Collar acero blanco",
+    "img": "./img/catalogo/collar-acero-blanco2.png"
+  },
+  {
+      "precio": 500,
+      "id": 20,
+      "title": "Collar acero blanco",
+      "img": "./img/catalogo/collar-acero-blanco3.png"
+  },
+  {
+      "precio": 500,
+      "id": 21,
+      "title": "Collar acero blanco",
+      "img": "./img/catalogo/collar-acero-blanco4.png"
+  },
+  {
+      "precio": 500,
+      "id": 22,
+      "title": "Collar acero blanco",
+      "img": "./img/catalogo/collar-acero-blanco5.png"
+  },
+  {
+      "precio": 500,
+      "id": 23,
+      "title": "Collar acero blanco",
+      "img": "./img/catalogo/collar-acero-blanco6.png"
+  },
+  {
+      "precio": 500,
+      "id": 24,
+      "title": "Collar eslabones",
+      "img": "./img/catalogo/collar-acero-blanco7.png"
+  },  {
+    "precio": 1000,
+    "id": 25,
+    "title": "Aro colgante perlado",
+    "img": "./img/catalogo/collar-perlas-blancas-00.png"
+  },
+  {
+    "precio": 1500,
+    "id": 26,
+    "title": "Cuello polar pink",
+    "img": "./img/catalogo/cuello-polar.png"
+  },
+  {
+    "precio": 700,
+    "id": 27,
+    "title": "Cuello polar gray",
+    "img": "./img/catalogo/cuello-polar-blanco.png"
+  },
+  {
+    "precio": 400,
+    "id": 28,
+    "title": "Cuello polar black",
+    "img": "./img/catalogo/cuello-polar-negro.png"
+  },
+  {
+    "precio": 500,
+    "id": 29,
+    "title": "Anteojos de sol negras",
+    "img": "./img/catalogo/gafas-sol.png"
+  },
+  {
+    "precio": 500,
+    "id": 30,
+    "title": "Gorra bordada black",
+    "img": "./img/catalogo/gorra-black.png"
+  },
+  
+  {
+    "precio": 500,
+    "id": 31,
+    "title": "Gorra bordada brown",
+    "img": "./img/catalogo/gorra-brown.png"
+  },
+  {
+      "precio": 500,
+      "id": 32,
+      "title": "Gorra bordada pink",
+      "img": "./img/catalogo/gorra-pink.png"
+  },
+  {
+      "precio": 500,
+      "id": 33,
+      "title": "Gorra bordada yellow",
+      "img": "./img/catalogo/gorra-yellow.png"
+  },
+  {
+      "precio": 500,
+      "id": 34,
+      "title": "Guantes",
+      "img": "./img/catalogo/guantes.png"
+  },
+  {
+      "precio": 500,
+      "id": 35,
+      "title": "Llavero",
+      "img": "./img/catalogo/llavero.png"
+  },
+  {
+      "precio": 500,
+      "id": 36,
+      "title": "Mini bag white",
+      "img": "./img/catalogo/minibag-blanca.png"
+  },  {
+    "precio": 1000,
+    "id": 37,
+    "title": "Mini bag con correas desmontables",
+    "img": "./img/catalogo/mini-bag-correa.png"
+  },
+  {
+    "precio": 1500,
+    "id": 38,
+    "title": "Mochila negra tela de avion",
+    "img": "./img/catalogo/Mochila-tela.jpg"
+  },
+  {
+    "precio": 700,
+    "id": 39,
+    "title": "Morral negro",
+    "img": "./img/catalogo/morral.jpg"
+  },
+  {
+    "precio": 400,
+    "id": 40,
+    "title": "Morral negro",
+    "img": "./img/catalogo/morral-negro-01.png"
+  },
+  {
+    "precio": 500,
+    "id": 41,
+    "title": "Morral print",
+    "img": "./img/catalogo/morral-print-00.png"
+  },
+  {
+    "precio": 500,
+    "id": 42,
+    "title": "Morral greenlight",
+    "img": "./img/catalogo/morral-verde-00.png"
+  },
+  
+  {
+    "precio": 500,
+    "id": 43,
+    "title": "Morral greenlight ",
+    "img": "./img/catalogo/morral-verde-01.png"
+  },
+  {
+      "precio": 500,
+      "id": 44,
+      "title": "Colitas de pelo ",
+      "img": "./img/catalogo/NN2.jpg"
+  },
+  {
+      "precio": 500,
+      "id": 45,
+      "title": "Pashmina",
+      "img": "./img/catalogo/pashmina1.png"
+  },
+  {
+      "precio": 500,
+      "id": 46,
+      "title": "Pashmina",
+      "img": "./img/catalogo/pashmina2.png"
+  },
+  {
+      "precio": 500,
+      "id": 47,
+      "title": "Pashmina",
+      "img": "./img/catalogo/pashmina3.png"
+  },
+  {
+      "precio": 500,
+      "id": 48,
+      "title": "Pashmina",
+      "img": "./img/catalogo/pashmina4.png"
+  },  {
+    "precio": 1000,
+    "id": 49,
+    "title": "Pashmina",
+    "img": "./img/catalogo/pashmina5.png"
+  },
+  {
+    "precio": 1500,
+    "id": 50,
+    "title": "Pashmina",
+    "img": "./img/catalogo/pashmina6.png"
+  },
+  {
+    "precio": 700,
+    "id": 51,
+    "title": "Pashmina",
+    "img": "./img/catalogo/pashmina7.png"
+  },
+  {
+    "precio": 400,
+    "id": 52,
+    "title": "Pashmina",
+    "img": "./img/catalogo/pashmina8.png"
+  },
+  {
+    "precio": 500,
+    "id": 53,
+    "title": "Pashmina",
+    "img": "./img/catalogo/pashmina9.png"
+  },
+  {
+    "precio": 500,
+    "id": 54,
+    "title": "Reloj digital",
+    "img": "./img/catalogo/reloj-digital.png"
+  },
+  
+  {
+    "precio": 500,
+    "id": 55,
+    "title": "Reloj negro",
+    "img": "./img/catalogo/reloj-negro-00.png"
+  }
+]

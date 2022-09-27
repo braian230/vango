@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vangoo Accesorios</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="crossorigin=""/>
+</head>
+<aside>Whatsapp +54 11 300-300
+  <img src="/img/whatsapp-aside.png" alt="" class="whatsapp-aside">
+<p id="parrafoDescuentos" >5% OFF En compras mayores a $10.000 ▼ 10% OFF En compras mayores a $15.000 </p>
+</aside>
+
+<body>
+  <div id="particles-js" class="container-fluid">
+  </div> <!-- stats - count particles --> 
+<div class="count-particles"> <span class="js-count-particles">--</span> particles </div>
+
+    <div class="container">
+        <h1 class="animate__animated animate__bounce"> Vango Accesorios</h1>
+
+      <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid"> 
+            <a class="navbar-brand" href="#">¡NEW!</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Acero.html">Catalogo</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Búscar por catálogo" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><img src="/img/search-navbar.png" alt=""></button>
+              </form>
+            </div>
+          </div>
+      </nav>
+        <h3>Productos destacados</h3>
+        <hr>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Acción</th>
+            <th scope="col">Total</th>
+        </tr>
+    </thead>
+    
+<tbody id="items"></tbody>
+      <tfoot>
+        <tr id="footer">
+            <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+        </tr>
+    </tfoot>
+</table>
+
+        <div class="row" id="cards"></div>
+    </div>
+
+    
+<template id="template-footer">
+        <th scope="row" colspan="2">Total productos</th>
+        <td>10</td>
+        <td>
+          <button id="finalizar" class="btn btn-success">Finalizar compra</button>
+          <button class="btn btn-danger btn-sm" id="vaciar-carrito">vaciar todo</button>
+        </td>
+    <td class="font-weight-bold">$ <span>5000</span></td>
+</template>
+  
+<template id="template-carrito">
+    <tr>
+      <th scope="row">id</th>
+      <td>Productos</td>
+      <td>1</td>
+      <td>
+          <button class="btn btn-info btn-sm">
+              +
+          </button>
+          <button class="btn btn-danger btn-sm">
+              -
+          </button>
+      </td>
+      <td>$ <span>500</span></td>
+    </tr>
+</template>
+
+<template id="template-card">
+    <div class="col-12 mb-2 col-md-4">
+      <div class="card">
+        <img src="" alt="" class="card-img-top">
+        <div class="card-body">
+          <h5>Titulo</h5>
+          <p>Precio</p>
+          <button class="btn btn-dark">Comprar</button>
+        </div>
+      </div>
+    </div>
+</template>
+
+<!-- particles.js container --> 
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> 
+<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+  integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+  crossorigin=""></script>
+<div class="container">
+  <div class="row">
+    <footer class="identificador-footer">
+        
+    
+      <div class="container__footer">
+          <div class="box__footer">
+            <div class="logo">
+                <img src="img/logo-vango.jpg" alt="">
+            </div>
+            <div class="terms">
+              <p>
+                Vango Accesorios 2020.
+                <p>
+                Av. del Libertador
+                C1429BMS Ciudad de Buenos Aires
+                Argentina.
+              </p></p>
+            </div>
+          </div>
+          <div class="box__footer">
+            <h2>Soluciones</h2>
+            <a href="#">Contacto</a>
+            <a href="#">Quejas</a>
+          </div>
+
+          <div class="box__footer">
+            <h2>Compañia</h2>
+            <a href="#">Acerca de</a>
+            <a href="#">Trabajos</a>
+            <a href="#">Procesos</a>
+            <a href="#">Servicios</a>
+          </div>
+          <div class="box__footer">
+            <h2>Redes Sociales</h2>
+            <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+            <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+            <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+            <a href="#"><i class="fab fa-instagram-square"></i>Instagram</a>
+          </div>
+      </div>
+      <div class="box__copyright">
+          <hr>
+          <p>Todos los derechos reservados © 2022 |
+            <b>Vango Accesorios</b></p>
+  |   </div>
+    </footer>
+
+  </div>
+</div>   
+  <!--FOOTER FONT-->
+  <script src="https://kit.fontawesome.com/46343a8648.js" crossorigin="anonymous"></script>
+  <!--CARRITO DE COMPRAS JS-->
+    <script src="carrito.js"></script>
+    <!--sweetalert2-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

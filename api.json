@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 1900,
+      "id": 1,
+      "title": "Anteojos pink",
+      "img": "./img/gafas-rosas.png"
+    },
+    {
+      "precio": 1500,
+      "id": 2,
+      "title": "Anteojos Black",
+      "img": "./img/gafas-negras.png"
+    },
+    {
+      "precio":2700,
+      "id": 3,
+      "title": "Reloj",
+      "img": "./img/reloj-celeste.png"
+    },
+    {
+      "precio": 1200,
+      "id": 4,
+      "title": "Gorras",
+      "img": "./img/gorras.png"
+    },
+    {
+      "precio": 900,
+      "id": 5,
+      "title": "Cuellitos tejidos",
+      "img": "./img/cuellitos-tejidos.png"
+    },
+    {
+      "precio": 3900,
+      "id": 6,
+      "title": "Cartera",
+      "img": "./img/cartera-verde.png"
+    }
+  ]
