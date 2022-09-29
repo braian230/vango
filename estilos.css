@@ -322,3 +322,9 @@ h5{
     height: 220px;
     border-radius: 40%;
 }
+p{
+  font-weight:bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  transform: translate(15%);
+}
