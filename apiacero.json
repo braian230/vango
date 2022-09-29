@@ -74,8 +74,8 @@
   {
     "precio": 700,
     "id": 15,
-    "title": "Aro colgante acero dorado",
-    "img": "./img/catalogo/aros-dorados.png"
+    "title": "Aro colgante perlado",
+    "img": "./img/catalogo/collar-perlas-blancas-00.png"
   },
   {
     "precio": 400,
@@ -134,8 +134,8 @@
   },  {
     "precio": 1000,
     "id": 25,
-    "title": "Aro colgante perlado",
-    "img": "./img/catalogo/collar-perlas-blancas-00.png"
+    "title": "Collar acero blanco",
+    "img": "./img/catalogo/collar-acero-blanco.png"
   },
   {
     "precio": 1500,
